@@ -11,17 +11,17 @@
 </head>
 
 <body>
-    <main id="tudo">
-        <div id="login">
+    <main>
+        <div id="login" class="flex-column">
             <img class="logo" src="./assets/logo.jpg">
             <p>Fazer login</p>
             <label class="inp" for="inp">
-                <input placeholder="" id="inp" type="text">
+                <input id="inp" type="text">
                 <span class="label">NOME DE USUÁRIO</span>
                 <span class="focus-bg"></span>
             </label>
             <label class="inp" for="inp">
-                <input placeholder="" id="inp" type="text">
+                <input id="inp" type="password">
                 <span class="label">SENHA</span>
                 <span class="focus-bg"></span>
             </label>
@@ -29,6 +29,22 @@
                 <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
                 <div class="google"><i class="fa-brands fa-google"></i></div>
                 <div class="apple"><i class="fa-brands fa-apple"></i></div>
+            </div>
+            <div class="checkbox">
+                <label class="container">
+                    <input checked="checked" type="checkbox">
+                    <div class="checkmark"></div>
+                </label>
+                <p>MANTER LOGIN</p>
+            </div>
+
+            <button class="arrow-login">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <div class="outros">
+                <p>NÃO CONSEGUE INICIAR SESSÃO?</p>
+                <p>CRIAR CONTA</p>
             </div>
         </div>
 
